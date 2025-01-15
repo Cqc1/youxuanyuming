@@ -4,11 +4,10 @@ import re
 import os
 
 # 目标URL列表
-urls = ['https://ip.164746.xyz/ipTop10.html', 
-        'https://cf.090227.xyz'
+urls = ['https://ip.164746.xyz/ipTop10.html'
         ]
 
-# 正则表达式用于匹配IP地址
+# 正则表达式用于匹配IP地址（）https://cf.090227.xyz
 ip_pattern = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
 
 # 检查ip.txt文件是否存在,如果存在则删除它
